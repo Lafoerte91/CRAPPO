@@ -13,3 +13,68 @@
   --font-family: "Rubik", sans-serif;
 }
 
+body {
+	background-color: #0D0D2B;
+}
+
+.container {
+	max-width: 1202px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 60px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+}
+
+.nav__link {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	letter-spacing: 0.01em;
+	color: var(--neutral-white);
+	transition: .2s ease all;
+}
+
+.nav__link:hover {
+	color: var(--color---accent);
+}
+
+.nav__item--login {
+	margin-left: 55px;
+	padding-right: 24px;
+	border-right: 1px solid rgba(242, 242, 242, 0.3);
+}
+
+.nav__link--login {
+	font-weight: 500;
+}
+
+.nav__item--register {
+	margin-left: 24px;
+}
+
+.nav__link--register {
+	border-radius: 32px;
+	padding: 14px 32px;
+	width: 130px;
+	height: 52px;
+	background: var(--color---accent);
+	font-weight: 500;
+}
+
+.nav__link--register:hover {
+	color: var(--neutral-white);
+	background: var(--color---secondary);
+}
