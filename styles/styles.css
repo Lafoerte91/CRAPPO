@@ -213,3 +213,28 @@ body {
 .stat-item__icon--03 {
 	background-image: url('../images/icon03.svg');
 }
+
+/* text */
+.text {
+	padding-top: 100px;
+	text-align: center;
+}
+
+.text__title {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 150%;
+	color: var(--neutral-white);
+	margin-bottom: 24px;
+}
+
+.text__description {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: var(--neutral---grey-5);
+	max-width: 622px;
+	margin: 0 auto;
+}
