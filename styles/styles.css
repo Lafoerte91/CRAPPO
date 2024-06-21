@@ -237,4 +237,114 @@ body {
 	color: var(--neutral---grey-5);
 	max-width: 622px;
 	margin: 0 auto;
+	margin-bottom: 64px;
+}
+
+/* Calculate */
+.calc-head {
+	display: flex;
+	gap: 48px;
+	justify-content: space-between;
+	align-items: center;
+	background: #fbfcfe;
+	border-radius: 16px 16px 0 0;
+	max-width: 942px;
+	height: 155px;
+	margin: 0 auto;
+	padding-left: 48px;
+	padding-right: 49px;
+}
+
+.calc-head__input {
+	border-bottom: 1px solid var(--neutral---grey-5);
+	width: 403px;
+	padding-bottom: 8px;
+}
+
+.calc-head__input::placeholder {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	color: var(--color---primary);
+}
+
+.calc-head__select {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	color: var(--color---primary);
+	width: 200px;
+	height: 38px;
+	border-bottom: 1px solid var(--neutral---grey-5);
+	appearance: none;
+
+	background-image: url('../images/arrow-select.svg');
+	background-repeat: no-repeat;
+	background-position: 98% 10px;
+	
+}
+
+.calc-head__btn {
+	background: var(--color---accent);
+	border-radius: 32px;
+	padding: 16px 32px;
+	width: 146px;
+	height: 59px;
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 150%;
+	text-align: center;
+	color: var(--neutral-white);
+}
+
+.page-light {
+	background: linear-gradient(180deg, #f8f9fb 0%, #fafbff 100%);
+}
+
+.calc-foot {
+	background: var(--neutral-white);
+	max-width: 942px;
+	margin: 0 auto;
+	padding-left: 48px;
+	padding-right: 49px;
+	border-radius:  0 0 16px 16px;
+	margin-bottom: 100px;
+	padding-bottom: 48px;
+}
+
+.calc-foot__title {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: var(--color---accent);
+	margin-bottom: 16px;
+}
+
+.calc-foot__total {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 150%;
+	letter-spacing: 0.04em;
+	color: var(--color---primary);
+}
+
+.calc-foot__total span  {
+	color: var(--color---accent);
+	margin-bottom: 10px;
+}
+
+.calc-foot__description {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	letter-spacing: 0.01em;
+	color: var(--neutral---grey-3);
 }
